@@ -1,4 +1,4 @@
-ranjith1,ranjith2=map(int,input().split())
-for ranjith3 in range(ranjith1,ranjith2):
-	if(ranjith3%2!=0):
-		print(ranjith3,end=" ")
+ran1,ran2=map(int,input().split())
+for ran3 in range(ran1+1,ran2):
+	if(ran3%2!=0):
+		print(ran3,end=" ")
