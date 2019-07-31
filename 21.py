@@ -1,0 +1,6 @@
+b11,b21,b31=input().split()
+b11=int(b11)
+b21=int(b21)
+b31=int(b31)
+sum=(b11/2)*(2*b21+(b11-1)*b31)
+print(int(sum))
